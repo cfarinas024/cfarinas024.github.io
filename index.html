@@ -1,31 +1,44 @@
 <!DOCTYPE.html>
 <html>
-  <head>
-    <title>My Title</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <h1>This is a header</h1>
-    <p>This is a paragraph</p>
-<img src="https://s-media-cache-ak0.pinimg.com/736x/32/bb/38/32bb385d9474d99f2c58fbfa33985592.jpg">
-<ul>
-  <li class="blue">list item 1</li>
-  <li class="red">list item 2</li>
-  <li class="pink">list item 3</li>
-  <li class="green">list item 4</li>
-  <li class="brown">list item 5</li>
-</ul>
-<a href="https://www.pinterest.com/mindmake/lego-and-education/" style="color:#00ff00"> link</a>
-  <table>
-    <tr>
-      <ti>Title 1</ti>
-      <ti>Title 2</ti>
-    </tr>
-    <tr>
-      <td> Item 1,1</td>
-      <td> Item 2,2</td>
-    </tr>
+<head>
+  <title>My Website</title>
+  <link rel="stylesheet" type="text/css" href="webpagestyle.css">
+</head>
+<body>
+  <h1>Home</h1>
+  <ul>
+    <li><a href="file:///C:/apps/html/contact.html">Contact</a></li>
+    <li><a href="file:///C:/apps/html/about.html">About</a></li>
+    <li><a href="file:///C:/apps/html/website.html">Home</a></li>
+  </ul>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="Images/bobmarley.jpg" style="width:40%">
+      <div class="text">Caption Text</div>
+    </div>
 
-  </table>
-  </body>
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="Images/bob2.jpg" style="width:40%">
+      <div class="text">Caption Two</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="Images/bob3.jpg" style="width:40%">
+      <div class="text">Caption Three</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+</body>
 </html>
