@@ -54,16 +54,13 @@ li a:hover {
     border-radius: 50%;
 }
 .fa-facebook{
-  background: blue;
-  color: white;
+  background: url("Images/facebook.png");
 }
 .fa-linkedIn{
-  background: white;
-  color: blue;
+  background: url("Images/linkedin.png");
 }
 .fa-google{
-  background: red;
-  color: white;
+  background: url("Images/google-plus.png");
 }
 .left{
   width: 30%;
