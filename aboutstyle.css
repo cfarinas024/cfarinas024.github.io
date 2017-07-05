@@ -52,3 +52,7 @@ li a:hover {
   height: 100%;
   float: right;
 }
+iframe{
+  width: 50%;
+  height: 100%;
+}
