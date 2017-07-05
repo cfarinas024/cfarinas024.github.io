@@ -55,4 +55,5 @@ li a:hover {
 iframe{
   width: 60%;
   height: 40%;
+  float: left;
 }
