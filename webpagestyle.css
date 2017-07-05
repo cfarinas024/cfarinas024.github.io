@@ -40,3 +40,8 @@ li a:hover {
 .rasta{
   float: left;
 }
+
+.text{
+  font-size: 40px;
+  color: white;
+}
