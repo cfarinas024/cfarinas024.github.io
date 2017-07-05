@@ -53,6 +53,18 @@ li a:hover {
     text-decoration: none;
     border-radius: 50%;
 }
+.fa-facebook{
+  background: blue;
+  color: white;
+}
+.fa-linkedIn{
+  background: white;
+  color: blue;
+}
+.fa-google{
+  background: red;
+  color: white;
+}
 .left{
   width: 30%;
   height: 100%;
