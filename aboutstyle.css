@@ -47,14 +47,13 @@ li a:hover {
   width: 30%;
   height: 100%;
 }
-.right{
-  width: 40%;
-  height: 100%;
-  float: right;
-  align-items: right;
-}
 .vid{
   width: 60%;
   height: 40%;
   float: left;
+}
+.right{
+  width: 40%;
+  height: 100%;
+  float: right;
 }
