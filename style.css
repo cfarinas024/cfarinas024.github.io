@@ -1,18 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Asap|Rationale');
 
 
-h1 {
-  font-family: 'Rationale', sans-serif;
-}
 
 body{
   background-color: black;
 }
 
 .jumbotron {
-    background-color: #eceeef;
-    margin-bottom: 0;
-    margin-top: 53.6px;
+    background: url("images/chester.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+.gallery-title {
+  font-family: 'Rationale', sans-serif;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding-top: 200px;
 }
 
 .about {
@@ -20,7 +28,7 @@ body{
   font-size: 40px;
   color: white;
   text-align: center;
-  padding-top: 250px;
+  padding-top: 200px;
 }
 
 .self {
@@ -49,7 +57,7 @@ body{
   font-size: 40px;
   color: white;
   text-align: center;
-  padding-top: 250px;
+  padding-top: 200px;
 }
 
 .contact-message {
