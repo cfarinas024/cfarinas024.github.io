@@ -7,12 +7,12 @@ body{
 }
 
 .jumbotron {
-    background: url("images/chester.png");
+    background: url("images/chester2.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     margin-bottom: 40px;
-    margin-top: 60px;
+    margin-top: 65px;
 }
 
 .gallery-title {
