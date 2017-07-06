@@ -12,16 +12,12 @@
 
 
   </head>
-  <body>
-    <div class="jumbotron">
-      <h1 class="display-3 text-center" >☻IRIE♥</h1>
-    </div>
-
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <body class="background-color">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Navigate</a>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
@@ -29,12 +25,19 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#slider">Slider</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
       </div>
     </nav>
+    <div class="jumbotron">
+      <h1 class="display-3 text-center" >Creative Minds</h1>
+    </div>
 
-
+<div class="container full-height" id="slider">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -43,13 +46,13 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-          <img class="d-block img-fluid" src="Images/bob2.jpg" alt="First slide">
+          <img class="d-block img-fluid" src="Images/concept.jpg" alt="First slide">
         </div>
         <div class="carousel-item">
-          <img class="d-block img-fluid" src="Images/boxhead.jpg" alt="Second slide">
+          <img class="d-block img-fluid" src="Images/work.jpeg" alt="Second slide">
         </div>
         <div class="carousel-item">
-          <img class="d-block img-fluid" src="Images/cool.jpg" alt="Third slide">
+          <img class="d-block img-fluid" src="Images/omen.jpg" alt="Third slide">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -61,6 +64,37 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+  </div>
+  <h2 class="about" id="about">About</h2>
+  <div class="self">
+  <p>Hola!, my name is Chester Daniel Fariñas</p>
+  <p>I live in the Philippines</p>
+  <p>I'm 23 years of age</p>
+  <p>I'm still a student and currently enrolled at VIVIXX Bootcamp</p>
+</div>
+  <div class="image-container">
+<div class="experience">
+<img src="Images/ruby.png">
+<img src="Images/html.png">
+<img src="Images/gamez.jpg">
+<img src="Images/bootstrap.png">
+<img src="Images/github.jpg">
+<img src="Images/vivixx-academy.png">
+<img src="Images/coder.jpg">
+</div>
+</div>
+    <h3 class="contact" id="contact">Contact details</h3>
+    <div class=contact-message>
+    <p>Contact me today</p>
+    <p>Please feel free to reach out to me if you have any questions
+      or comments about the services I offer. Also, you could always
+      just send me a friendly hello.</p>
+    </div>
+    <div class="contact-details">
+      <p>Email address: chester.farinas@yahoo.com/chester.farinas@gmail.com</p>
+      <p>Contact number: 09069511179</p>
+      <p>Home address: Upper Quezon Hill, Baguio City Philippines</p>
+    </div>
     <div class="social-container">
     <ul class="social">
     <li><a href="http://facebook.com/"><i class="fa fa-facebook"></i></a></li>
@@ -70,6 +104,15 @@
     </ul>
   </div>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script>
+    $(document).on('click', 'a', function(event){
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+});
+    </script>
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
