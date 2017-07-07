@@ -81,6 +81,7 @@ body{
 .social-container {
   padding-top: 250px;
   padding-bottom: 25px;
+  padding-right: 40px;
 }
 .social {
 	overflow: auto;
