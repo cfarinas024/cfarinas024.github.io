@@ -7,7 +7,7 @@ body{
 }
 
 .jumbotron {
-    background: url("images/chester2.png");
+    background: url("images/chester3.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
@@ -123,3 +123,11 @@ body{
   height:600px;
   overflow: hidden;
 }
+
+.container-contact{
+  font-family: 'Rationale', sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
+#success_message{ display: none;}
